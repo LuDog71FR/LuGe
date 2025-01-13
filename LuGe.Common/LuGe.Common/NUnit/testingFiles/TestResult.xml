@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Actaris.Deliverables.DotNet2005\Actaris.Quality\Actaris.Quality.Common\Actaris.Quality.Common.Tests.dll" total="74" failures="0" not-run="0" date="2008-08-01" time="09:38:56">
+  <environment nunit-version="2.4.2.0" clr-version="2.0.50727.1433" os-version="Microsoft Windows NT 5.1.2600 Service Pack 2" platform="Win32NT" cwd="D:\Data\lgccase\lgermain_erh_view\MCN_SoftwareReusables\DotNet\Actaris\Actaris.Quality\Actaris.Quality.Common\Actaris.Quality.Common\NUnit\testingFiles" machine-name="MCN0583" user="lgermain" user-domain="FR" />
+  <culture-info current-culture="fr-FR" current-uiculture="fr-FR" />
+  <test-suite name="C:\Actaris.Deliverables.DotNet2005\Actaris.Quality\Actaris.Quality.Common\Actaris.Quality.Common.Tests.dll" success="True" time="3.351" asserts="0">
+    <results>
+      <test-suite name="Actaris" success="True" time="3.335" asserts="0">
+        <results>
+          <test-suite name="Quality" success="True" time="3.320" asserts="0">
+            <results>
+              <test-suite name="Common" success="True" time="3.304" asserts="0">
+                <results>
+                  <test-suite name="Tests" success="True" time="3.304" asserts="0">
+                    <results>
+                      <test-suite name="Collection" success="True" time="0.187" asserts="0">
+                        <results>
+                          <test-suite name="TestLICollection" success="True" time="0.062" asserts="0">
+                            <results>
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLICollection.TestAddMethod" executed="True" success="True" time="0.031" asserts="3" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLICollection.TestAddRangeMethod" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLICollection.TestAsArrayMethod" executed="True" success="True" time="0.016" asserts="4" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLICollection.TestAsReadOnlyMethod" executed="True" success="True" time="0.000" asserts="4" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLICollection.TestChangedEvent" executed="True" success="True" time="0.000" asserts="8" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLICollection.TestConstructor" executed="True" success="True" time="0.000" asserts="4" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLICollection.TestConvertAll" executed="True" success="True" time="0.016" asserts="5" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLICollection.TestForEachMethod" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLICollection.TestGetRange" executed="True" success="True" time="0.000" asserts="5" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLICollection.TestToString" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="TestLICollectionEventArgs" success="True" time="0.000" asserts="0">
+                            <results>
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLICollectionEventArgs.TestItemReplacedState" executed="True" success="True" time="0.000" asserts="4" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="TestLICollectionHelper" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLICollectionHelper.TestDictionaryToArrayMethod" executed="True" success="True" time="0.016" asserts="4" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLICollectionHelper.TestDictionaryToArrayMethod2" executed="True" success="True" time="0.000" asserts="5" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLICollectionHelper.TestGenerateKeyMethod" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="TestLIKeyedCollection" success="True" time="0.047" asserts="0">
+                            <results>
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIKeyedCollection.TestAddMethod" executed="True" success="True" time="0.000" asserts="5" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIKeyedCollection.TestAddRangeMethod" executed="True" success="True" time="0.016" asserts="3" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIKeyedCollection.TestAsArrayMethod" executed="True" success="True" time="0.000" asserts="4" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIKeyedCollection.TestAsReadOnlyMethod" executed="True" success="True" time="0.000" asserts="6" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIKeyedCollection.TestChangedEvent" executed="True" success="True" time="0.000" asserts="8" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIKeyedCollection.TestConstructor" executed="True" success="True" time="0.016" asserts="4" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIKeyedCollection.TestConvertAll" executed="True" success="True" time="0.000" asserts="6" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIKeyedCollection.TestForEachMethod" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIKeyedCollection.TestGetRange" executed="True" success="True" time="0.000" asserts="5" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIKeyedCollection.TestToString" executed="True" success="True" time="0.016" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="TestLIKeyedItemEventArgs" success="True" time="0.000" asserts="0">
+                            <results>
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIKeyedItemEventArgs.TestMethod" executed="True" success="True" time="0.000" asserts="3" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="TestLIReadOnlyCollection" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIReadOnlyCollection.TestAsArrayMethod" executed="True" success="True" time="0.000" asserts="4" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIReadOnlyCollection.TestForEachMethod" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIReadOnlyCollection.TestGetRange" executed="True" success="True" time="0.016" asserts="6" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIReadOnlyCollection.TestInitialize" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="Actaris.Quality.Common.Tests.Collection.TestLIReadOnlyCollection.TestToString" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite name="TestLIActivator" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIActivator.TestGetInstance" executed="True" success="True" time="0.016" asserts="6" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIActivator.TestGetInstanceFromAssembly" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIActivator.TestGetInstanceFromAssemblyAndType" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIActivator.TestGetInstanceFromAssemblyAndTypeWithParams" executed="True" success="True" time="0.000" asserts="5" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIActivator.TestGetInstanceFromAssemblyName" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIActivator.TestGetInstanceFromAssemblyNameWithParams" executed="True" success="True" time="0.000" asserts="5" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIActivator.TestGetInstanceFromAssemblyWithParams" executed="True" success="True" time="0.000" asserts="5" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIActivator.TestIsBaseClassOfMethod" executed="True" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="TestLIFile" success="True" time="0.000" asserts="0">
+                        <results>
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIFile.TestFileAreEquals" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIFile.TestFileAreNotEquals" executed="True" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="TestLILog" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="Actaris.Quality.Common.Tests.TestLILog.TestDebugMethod" executed="True" success="True" time="0.016" asserts="2" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLILog.TestTraceMethod" executed="True" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="TestLIObject" success="True" time="0.140" asserts="0">
+                        <results>
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObject.TestClearErrorMethod" executed="True" success="True" time="0.140" asserts="4" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObject.TestInstance" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObject.TestResourcesProperty" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObject.TestSetErrorMethod" executed="True" success="True" time="0.000" asserts="5" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="TestLIObjectAccessor" success="True" time="0.094" asserts="0">
+                        <results>
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObjectAccessor.TestConstructorWithType" executed="True" success="True" time="0.000" asserts="5" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObjectAccessor.TestConstructorWithTypeName" executed="True" success="True" time="0.000" asserts="5" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObjectAccessor.TestConstructorWithTypeNameEmpty" executed="True" success="True" time="0.062" asserts="0" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObjectAccessor.TestGetFieldMethod" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObjectAccessor.TestGetPropertyMethod" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObjectAccessor.TestInstanceProperty" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObjectAccessor.TestInvokeMethod" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObjectAccessor.TestInvokeMethodWithOutParams" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObjectAccessor.TestInvokeMethodWithParams" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObjectAccessor.TestInvokeMethodWithRefParams" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObjectAccessor.TestInvokeMethodWithString" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObjectAccessor.TestInvokeStatic" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObjectAccessor.TestSetFieldMethod" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIObjectAccessor.TestSetPropertyMethod" executed="True" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="TestLIProcess" success="True" time="0.047" asserts="0">
+                        <results>
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIProcess.TestStart" executed="True" success="True" time="0.047" asserts="6" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIProcess.TestStop" executed="True" success="True" time="0.000" asserts="5" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="TestLIResource" success="True" time="0.062" asserts="0">
+                        <results>
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIResource.TestExtractImage" executed="True" success="True" time="0.031" asserts="1" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIResource.TestExtractStream" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIResource.TestExtractText" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIResource.TestExtractXml" executed="True" success="True" time="0.031" asserts="1" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIResource.TestSaveEmbeddedFile" executed="True" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="TestLISerialization" success="True" time="0.748" asserts="0">
+                        <results>
+                          <test-case name="Actaris.Quality.Common.Tests.TestLISerialization.TestDeserialize" executed="True" success="True" time="0.748" asserts="7" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLISerialization.TestSerialize" executed="True" success="True" time="0.000" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="TestLIStreamHelper" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIStreamHelper.TestSaveStreamToFile" executed="True" success="True" time="0.016" asserts="4" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="TestLIVersion" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIVersion.TestVersionNumber" executed="True" success="True" time="0.016" asserts="7" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="TestLIXmlHelper" success="True" time="1.917" asserts="0">
+                        <results>
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIXmlHelper.TestInfer" executed="True" success="True" time="0.920" asserts="1" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIXmlHelper.TestTransform" executed="True" success="True" time="0.857" asserts="1" />
+                          <test-case name="Actaris.Quality.Common.Tests.TestLIXmlHelper.TestValidate" executed="True" success="True" time="0.125" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

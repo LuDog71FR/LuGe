@@ -1,0 +1,6 @@
+..\Itron.Quality.Common\Itron.Quality.Common\Itron.Quality.Common.csproj
+..\Itron.Quality.Common\Itron.Quality.Common.Data\Itron.Quality.Common.Data.csproj
+..\Itron.Quality.Common\Itron.Quality.Common.Data.SqlObject\Itron.Quality.Common.Data.SqlObject.csproj
+..\Itron.Quality.Common\Itron.Quality.Common.Forms\Itron.Quality.Common.Forms.csproj
+..\Itron.Quality.AutoUpdate\Itron.Quality.AutoUpdate\Itron.Quality.AutoUpdate.csproj
+Itron.Quality.DatabaseQuery\Itron.Quality.DatabaseQuery.csproj

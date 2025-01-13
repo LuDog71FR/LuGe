@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<project name="LuGe.DatabaseQuery" 
+         default="all" 
+         basedir="." 
+         xmlns="http://nant.sf.net/release/0.85-rc3/nant.xsd">
+	
+	<property name="baseName" value="${project::get-name()}" />
+	<property name="releaseDir" value="release" />
+	
+	<property name="nant.settings.currentframework" value="net-2.0" />
+	
+	<!-- Do all -->
+	<target name="all" depends="clean,build,install" />
+	
+	<!-- Delete all binaries files -->
+	<target name="clean" depends="">
+		<echo>Cleaning binaries ...</echo>
+		
+		<delete dir="${releaseDir}" />
+	</target>
+	
+	<!-- Build binaries -->
+	<target name="build">
+		<echo>Building Release binaries ...</echo>
+		<echo>Current directory : ${directory::get-current-directory()}</echo>
+		
+		<!-- Test if project exist and delete the obj directory -->
+		<foreach item="Line" in="list_projects.txt" delim=";" property="FileName">
+			<if test="${not file::exists(FileName)}">
+				<fail message="Project don't exist : ${FileName}" />
+			</if>
+			
+			<delete dir="${path::get-directory-name(FileName)}\obj" />
+		</foreach>
+
+		<!-- Build -->
+		<solution configuration="release" outputdir="${releaseDir}" verbose="false">
+			<projects>
+				<includesfile name="list_projects.txt" />
+			</projects>
+		</solution>
+	</target>
+	
+	<!-- Install the binaries -->
+	<target name="install" depends="build">		
+		<property name="updateDir" value="\\wwwsoft-vm\d\wwwsoft\updates" />
+		<property name="zipFileName" value="${updateDir}\${baseName}\${baseName}.zip" />
+		
+		<!-- Zip all files in build directory -->
+		<zip zipfile="${zipFileName}">
+		    <fileset basedir="${releaseDir}">
+			<include name="**/*" />
+		    </fileset>
+		</zip>
+		
+		<!-- Copy the change log -->
+		<copy file="LuGe.DatabaseQuery\ChangeLog.txt" todir="${updateDir}\${baseName}" verbose="true" />
+		
+		<!-- Write the version number of the toolbox in the update.dat file -->
+		<echo file="${updateDir}\${baseName}\update.dat" 
+			message="${assemblyname::get-version(assemblyname::get-assembly-name(releaseDir + '\' + baseName + '.exe'))}" />		
+	</target>
+	
+</project>

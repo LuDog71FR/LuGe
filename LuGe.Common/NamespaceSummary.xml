@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<namespaces>
+    <namespace name="LuGe.Common">
+        <p>The <b>LuGe.Common</b> namespace is the base for the 
+    	<b>LuGe Framework</b>.
+		It provide a base class for manipulating business object.</p>
+		<p>The namespace provides also an easy way to manage objects 
+		by reflection.</p>
+    </namespace>
+	
+    <namespace name="LuGe.Common.Collection">
+        <p>The <b>LuGe.Common.Collection</b> namespace provides different kind of
+	    generic collection.</p><p>
+	    Each collection can raise event when an item is added, 
+    	removed or changed.</p><p>
+	    Items in the collection can be accessed using an
+	    integer index or a string key.</p>
+    </namespace>
+    
+    <namespace name="LuGe.Common.Data">
+        The <b>LuGe.Common.Data</b> namespace provides classes for
+		manipulating database.
+    </namespace>
+
+    <namespace name="LuGe.Common.Data.SqlObject">
+        The <b>LuGe.Common.Data.SqlObject</b> namespace provides classes for
+		mapping datatable into dotNet object.
+    </namespace>
+</namespaces>

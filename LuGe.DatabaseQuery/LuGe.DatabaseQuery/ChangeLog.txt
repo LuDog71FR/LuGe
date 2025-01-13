@@ -1,0 +1,23 @@
+﻿LuGe.DatabaseQuery ChangeLog
+---------------------------------------
+
+Version 1.7
+  - Change branding to Itron.
+  - Prefix all assemblies with Itron instead of Actaris.
+
+Version 1.6
+  - Add a new default database : Watermind Supervision.
+
+Version 1.5
+  - Sort the tables list.
+
+Version 1.4
+  - Manage specific configuration files to save different settings for each user.
+  - Correct bug : executing query with MySql database failed.
+
+Version 1.3
+  - Update the connection string of the ERH FDC database.
+
+Version 1.2
+  - First release that include the "auto update" capability.
+ 

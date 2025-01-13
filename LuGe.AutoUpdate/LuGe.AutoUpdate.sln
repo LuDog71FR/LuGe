@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuGe.AutoUpdateTool", "LuGe.AutoUpdateTool\LuGe.AutoUpdateTool.csproj", "{91BF7285-FC04-4C14-95F5-9AAFAB3FA01C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuGe.AutoUpdate", "LuGe.AutoUpdate\LuGe.AutoUpdate.csproj", "{68BE6881-2EAD-46BC-A00C-D20E870C7767}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://vsts.itron.com:8080/tfs/rnd-iintl
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = LuGe.AutoUpdateTool\\LuGe.AutoUpdateTool.csproj
+		SccProjectName1 = LuGe.AutoUpdateTool
+		SccLocalPath1 = LuGe.AutoUpdateTool
+		SccProjectUniqueName2 = LuGe.AutoUpdate\\LuGe.AutoUpdate.csproj
+		SccProjectName2 = LuGe.AutoUpdate
+		SccLocalPath2 = LuGe.AutoUpdate
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91BF7285-FC04-4C14-95F5-9AAFAB3FA01C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91BF7285-FC04-4C14-95F5-9AAFAB3FA01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91BF7285-FC04-4C14-95F5-9AAFAB3FA01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91BF7285-FC04-4C14-95F5-9AAFAB3FA01C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68BE6881-2EAD-46BC-A00C-D20E870C7767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68BE6881-2EAD-46BC-A00C-D20E870C7767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68BE6881-2EAD-46BC-A00C-D20E870C7767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68BE6881-2EAD-46BC-A00C-D20E870C7767}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
